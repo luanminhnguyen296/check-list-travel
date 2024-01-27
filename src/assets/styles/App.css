@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 25%;
+  padding: 2.4rem 0;
+  background-color: #f4a226;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  font-family: Monoton;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  word-spacing: 30px;
+}
+
+.todo-list {
+  width: 100%;
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 8rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.todo-list li {
+  text-decoration: none;
+  width: 100%;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.todo-list li input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.todo-list li span {
+  margin: 0 1.2rem;
+  color: wheat;
+}
+
+.todo-list li button {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: inherit;
+}
